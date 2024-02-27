@@ -6,3 +6,5 @@ local opts = { noremap = true, silent = true }
 -- These aren't working for some reason?
 -- vim.keymap.set("n", "+", "<C-a>")
 -- vim.keymap.set("n", "-", "<C-x>")
+
+vim.keymap.set("n", "<C-a>", "ggVG")
